@@ -1,0 +1,109 @@
+
+*** Running vivado
+    with args -log design_1_auto_pc_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_auto_pc_1.tcl
+
+
+****** Vivado v2017.1 (64-bit)
+  **** SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+  **** IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source design_1_auto_pc_1.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 330.863 ; gain = 93.086
+INFO: [Synth 8-638] synthesizing module 'design_1_auto_pc_1' [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_1/synth/design_1_auto_pc_1.v:58]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_12_axi_protocol_converter' [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/138d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4811]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_12_b2s' [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/138d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4229]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_12_b2s_aw_channel' [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/138d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3974]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_12_b2s_cmd_translator' [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/138d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3467]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_12_b2s_incr_cmd' [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/138d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3093]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_12_b2s_incr_cmd' (1#1) [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/138d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3093]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_12_b2s_wrap_cmd' [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/138d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2903]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_12_b2s_wrap_cmd' (2#1) [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/138d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2903]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_12_b2s_cmd_translator' (3#1) [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/138d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3467]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_12_b2s_wr_cmd_fsm' [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/138d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3225]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_12_b2s_wr_cmd_fsm' (4#1) [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/138d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3225]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_12_b2s_aw_channel' (5#1) [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/138d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3974]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_12_b2s_b_channel' [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/138d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3609]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_12_b2s_simple_fifo' [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/138d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_12_b2s_simple_fifo' (6#1) [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/138d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_12_b2s_simple_fifo__parameterized0' [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/138d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_12_b2s_simple_fifo__parameterized0' (6#1) [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/138d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_12_b2s_b_channel' (7#1) [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/138d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3609]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_12_b2s_ar_channel' [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/138d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4085]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_12_b2s_rd_cmd_fsm' [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/138d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3336]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_12_b2s_rd_cmd_fsm' (8#1) [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/138d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3336]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_12_b2s_ar_channel' (9#1) [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/138d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4085]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_12_b2s_r_channel' [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/138d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3814]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_12_b2s_simple_fifo__parameterized1' [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/138d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_12_b2s_simple_fifo__parameterized1' (9#1) [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/138d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_12_b2s_simple_fifo__parameterized2' [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/138d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_12_b2s_simple_fifo__parameterized2' (9#1) [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/138d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_12_b2s_r_channel' (10#1) [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/138d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3814]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_12_axi_register_slice' [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' (11#1) [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_12_axic_register_slice' [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_12_axic_register_slice' (12#1) [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_12_axic_register_slice__parameterized0' [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_12_axic_register_slice__parameterized0' (12#1) [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_12_axic_register_slice__parameterized1' [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_12_axic_register_slice__parameterized1' (12#1) [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_12_axic_register_slice__parameterized2' [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_12_axic_register_slice__parameterized2' (12#1) [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' (13#1) [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_12_axi_register_slice' (14#1) [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_12_axi_register_slice__parameterized0' [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' (14#1) [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_12_axic_register_slice__parameterized3' [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_12_axic_register_slice__parameterized3' (14#1) [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_12_axic_register_slice__parameterized4' [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_12_axic_register_slice__parameterized4' (14#1) [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_12_axic_register_slice__parameterized5' [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_12_axic_register_slice__parameterized5' (14#1) [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_12_axic_register_slice__parameterized6' [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_12_axic_register_slice__parameterized6' (14#1) [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' (14#1) [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_12_axi_register_slice__parameterized0' (14#1) [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_12_b2s' (15#1) [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/138d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4229]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_12_axi_protocol_converter' (16#1) [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ipshared/138d/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4811]
+INFO: [Synth 8-256] done synthesizing module 'design_1_auto_pc_1' (17#1) [c:/Xilinx/Prj/Zhdmi/VideoProcessing_BSD/VideoProcessing_BSD.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_1/synth/design_1_auto_pc_1.v:58]
+Finished RTL Elaboration : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 476.254 ; gain = 238.477
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 476.254 ; gain = 238.477
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.052 . Memory (MB): peak = 720.457 ; gain = 2.020
+Finished Constraint Validation : Time (s): cpu = 00:00:45 ; elapsed = 00:00:48 . Memory (MB): peak = 720.457 ; gain = 482.680
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:45 ; elapsed = 00:00:48 . Memory (MB): peak = 720.457 ; gain = 482.680
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:45 ; elapsed = 00:00:48 . Memory (MB): peak = 720.457 ; gain = 482.680
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:46 ; elapsed = 00:00:49 . Memory (MB): peak = 720.457 ; gain = 482.680
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:47 ; elapsed = 00:00:50 . Memory (MB): peak = 720.457 ; gain = 482.680
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:57 ; elapsed = 00:01:00 . Memory (MB): peak = 720.457 ; gain = 482.680
+Finished Timing Optimization : Time (s): cpu = 00:00:58 ; elapsed = 00:01:02 . Memory (MB): peak = 769.438 ; gain = 531.660
+Finished Technology Mapping : Time (s): cpu = 00:00:58 ; elapsed = 00:01:02 . Memory (MB): peak = 778.465 ; gain = 540.688
+Finished IO Insertion : Time (s): cpu = 00:00:59 ; elapsed = 00:01:03 . Memory (MB): peak = 778.465 ; gain = 540.688
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:59 ; elapsed = 00:01:03 . Memory (MB): peak = 778.465 ; gain = 540.688
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:59 ; elapsed = 00:01:03 . Memory (MB): peak = 778.465 ; gain = 540.688
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:59 ; elapsed = 00:01:03 . Memory (MB): peak = 778.465 ; gain = 540.688
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:59 ; elapsed = 00:01:03 . Memory (MB): peak = 778.465 ; gain = 540.688
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:59 ; elapsed = 00:01:03 . Memory (MB): peak = 778.465 ; gain = 540.688
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |CARRY4  |    18|
+|2     |LUT1    |    38|
+|3     |LUT2    |    18|
+|4     |LUT3    |   236|
+|5     |LUT4    |    48|
+|6     |LUT5    |    73|
+|7     |LUT6    |   103|
+|8     |SRL16E  |    18|
+|9     |SRLC32E |    47|
+|10    |FDRE    |   550|
+|11    |FDSE    |    48|
++------+--------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:59 ; elapsed = 00:01:03 . Memory (MB): peak = 778.465 ; gain = 540.688
+synth_design: Time (s): cpu = 00:01:02 ; elapsed = 00:01:06 . Memory (MB): peak = 778.465 ; gain = 542.426
